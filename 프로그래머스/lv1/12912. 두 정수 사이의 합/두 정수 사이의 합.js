@@ -1,9 +1,5 @@
 function solution(a, b) {
     let sumAtoB = 0;
-    if(a === b){
-        return a
-    }
-    else{
         if(a<b){
              for(let i=a; i<=b; i++){
             sumAtoB += i
@@ -16,8 +12,6 @@ function solution(a, b) {
             
         }
         }
-       
-        
-    }
+    
     return sumAtoB
 }
