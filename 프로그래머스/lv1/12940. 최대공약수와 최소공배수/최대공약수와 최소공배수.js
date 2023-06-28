@@ -1,7 +1,5 @@
 const solution=(n, m)=> {
     let answer = [];
-    let divN = [];
-    let divM = [];
     let gCD = 0;
     let lCM = 0;
     
